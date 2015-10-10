@@ -39,7 +39,7 @@ var _ = {
   omit: require('lodash/object/omit'),
 };
 var React = require('react');
-var ReactDOM = require('react-dom');
+var ReactDOM = React;
 var Velocity = require('./lib/velocity-animate-shim');
 
 var VelocityComponent = React.createClass({

@@ -40,7 +40,7 @@ var _ = {
   pluck: require('lodash/collection/pluck'),
 };
 var React = require('react');
-var ReactDOM = require('react-dom');
+var ReactDOM = React;
 var ReactTransitionGroup = require('react-addons-transition-group');
 var Velocity = require('./lib/velocity-animate-shim');
 
